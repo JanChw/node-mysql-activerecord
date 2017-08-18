@@ -1,27 +1,27 @@
 {
-	"name" : "mysql-activerecord",
-	"version": "0.8.6",
-	"author": "Martin Tajur <martin@tajur.ee>",
-	"description": "A lightweight MySQL query builder on top of the node-mysql module.",
-	"licence": [
-		"MIT",
-		"GPL"
-	],
-	"homepage": "https://github.com/martintajur/node-mysql-activerecord",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/martintajur/node-mysql-activerecord.git"
-	},
-	"contributors": [
-		"Daniel Bretoi <daniel@bretoi.com>",
-		"Kyle Farris <kyle@chomponllc.com>",
-		"Daehyub Kim <lateau@gmail.com>"
-	],
-	"dependencies": {
-		"mysql": "2.5.2"
-	},
-	"main" : "./",
-	"engines": {
-		"node": "*"
-	}
+  "name": "mysql-activerecord",
+  "version": "0.8.6",
+  "author": "Martin Tajur <martin@tajur.ee>",
+  "description": "A lightweight MySQL query builder on top of the node-mysql module.",
+  "licence": [
+    "MIT",
+    "GPL"
+  ],
+  "homepage": "https://github.com/martintajur/node-mysql-activerecord",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martintajur/node-mysql-activerecord.git"
+  },
+  "contributors": [
+    "Daniel Bretoi <daniel@bretoi.com>",
+    "Kyle Farris <kyle@chomponllc.com>",
+    "Daehyub Kim <lateau@gmail.com>"
+  ],
+  "dependencies": {
+    "mysql2": "^1.4.1"
+  },
+  "main": "./",
+  "engines": {
+    "node": "*"
+  }
 }

@@ -30,7 +30,7 @@
 
 var Adapter = function(settings) {
 
-	var mysql = require('mysql');
+	var mysql = require('mysql2');
 
 	var initializeConnectionSettings = function () {
 		if(settings.server) {
